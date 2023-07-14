@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Typing Test</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="heading">
+            <h3>Typing Speed Test</h3>
+            <div class="counters">
+                <div class="counter">
+                    <p id="timer" class="number">60</p>
+                    <p>seconds</p>
+                </div>
+                <div class="counter">
+                    <p id="words" class="number">0</p>
+                    <p>words</p>
+                </div>
+                <div class="counter">
+                    <p id="characters" class="number">0</p>
+                    <p>characters</p>
+                </div>
+                <div class="counter">
+                    <p id="mistakes" class="number">0</p>
+                    <p>mistakes</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text">
+            <div class="oldText"></div>
+            <div class="typing"></div>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
